@@ -1,0 +1,20 @@
+[project]
+name = "gdsproj"
+dynamic = ["version"]
+
+dependencies = [
+    "numpy",
+    "gdsfactory",
+    "kfactory",
+    "matplotlib",
+    "jupyterlab",
+    "jupytext",
+    "pre-commit",
+    "ipykernel",
+    "black"
+]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
